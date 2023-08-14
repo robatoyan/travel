@@ -1,0 +1,131 @@
+.Services {
+    display: flex;
+    min-height: 600px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 254px;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.OutTopValue {
+    width: clamp(200px, 100%, 444px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.OutTopValue h3 {
+    color: #F85E9F;
+    font-family: Circular Std;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 27.6px */
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+}
+
+.OutTopValue h2 {
+    color: #191825;
+    font-family: Circular Std;
+    font-size: clamp(30px, 5vw, 44px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 52.8px */
+}
+
+.SwiperSliders {
+    width: clamp(200px, 100%, 1100px);
+    height: 443px;
+    border-radius: 32px;
+}
+
+
+.SwiperHome {
+    width: clamp(200px, 100%, 1100px);
+    background-color: white;
+}
+
+.Slider_H {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+.Slider_H div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 32px;
+    height: 443px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 41px 89px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 32px;
+
+}
+
+
+
+.Slider_H h2 {
+    color: #191825;
+    text-align: center;
+    font-family: Circular Std;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 32px;
+    /* 33.6px */
+}
+
+.Slider_H p {
+    color: rgba(25, 24, 37, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+}
+
+.ReduseHome {
+    position: absolute;
+    width: 500px;
+    flex-shrink: 0;
+    border-radius: 500px;
+    opacity: 0.5;
+    background: #FACD49;
+    filter: blur(250px);
+    top: 900px;
+    right: 0px;
+}
+
+@media screen and (max-width:1600px) {
+    .Services {
+        justify-content: center;
+    }
+}
+@media screen and (max-width:500px) {
+    .Services{
+        margin-top: 100px;
+    }
+}

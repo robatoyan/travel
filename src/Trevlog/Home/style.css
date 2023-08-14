@@ -1,0 +1,225 @@
+.HomeGlavniReduce {
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 500px;
+    opacity: 0.5;
+    background: #FF5722;
+    filter: blur(250px);
+    position: absolute;
+    top: -240px;
+    left: -240px;
+}
+
+.Home {
+    width: clamp(200px, 100%, 1199px);
+    margin: 0 auto;
+    margin-top: 112px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.MapImg {
+    position: absolute;
+    width: clamp(200px, 100%, 772px);
+    top: -60px;
+    right: -60px;
+    z-index: -10;
+}
+
+.Left_H {
+    width: clamp(200px, 100%, 427px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 43px;
+}
+
+.Explore {
+    width: clamp(200px, 100%, 224px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    padding: 16px 32px;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.07), 0px 34px 75px 0px rgba(0, 0, 0, 0.07), 0px 137px 137px 0px rgba(0, 0, 0, 0.06), 0px 308px 185px 0px rgba(0, 0, 0, 0.04), 0px 548px 219px 0px rgba(0, 0, 0, 0.01), 0px 856px 240px 0px rgba(0, 0, 0, 0.00);
+}
+
+.Explore h2 {
+    color: #F85E9F;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 16.8px */
+}
+
+.Left_H h1 {
+    color: #000;
+    font-family: Circular Std;
+    font-size: clamp(50px, 5vw, 69px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 82.8px */
+}
+
+.Left_H span {
+    color: #F85E9F;
+    font-family: Circular Std;
+    font-size: clamp(50px, 5vw, 69px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.Left_H p {
+    color: rgba(25, 24, 37, 0.50);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+}
+
+.HomeLeftButoon {
+    display: flex;
+    column-gap: 16px;
+}
+
+.HomeLeftButoon button {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: #5D50C6;
+    color: #EEE;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    border: unset;
+    cursor: pointer;
+    /* 16.8px */
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 5px 11px 0px rgba(0, 0, 0, 0.10), 0px 20px 20px 0px rgba(0, 0, 0, 0.09), 0px 45px 27px 0px rgba(0, 0, 0, 0.05), 0px 81px 32px 0px rgba(0, 0, 0, 0.01), 0px 126px 35px 0px rgba(0, 0, 0, 0.00);
+}
+
+.HomeLeftButoon :nth-child(2) {
+    display: flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    color: #222831;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 120%;
+    /* 16.8px */
+}
+
+.Right_H {
+    position: relative;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 31px;
+}
+
+.Right_H img {
+    width: clamp(150px, 100%, 272px);
+}
+
+.RightImg-H {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.RightImg1 {
+    position: relative;
+}
+
+.RightReduse {
+    position: absolute;
+    bottom: -25px;
+    left: -25px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 100px;
+    background: #F85E9F;
+    box-shadow: 0px 19px 19px 0px rgba(0, 0, 0, 0.09), 0px 43px 26px 0px rgba(0, 0, 0, 0.05), 0px 77px 31px 0px rgba(0, 0, 0, 0.01), 0px 120px 34px 0px rgba(0, 0, 0, 0.00);
+}
+
+.RightReduseFooter {
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 100px;
+    background: #FF5722;
+    box-shadow: 0px 19px 19px 0px rgba(0, 0, 0, 0.09), 0px 43px 26px 0px rgba(0, 0, 0, 0.05), 0px 77px 31px 0px rgba(0, 0, 0, 0.01), 0px 120px 34px 0px rgba(0, 0, 0, 0.00);
+}
+
+@media screen and (max-width:1361px) {
+    .MapImg {
+        top: 0;
+        right: 0;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .Home {
+        margin-top: 50px;
+    }
+
+    .Right_H img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:457px) {
+    .Right_H img {
+        width: 150px;
+    }
+
+    .RightReduse {
+        padding: 10px;
+        left: 0px;
+    }
+
+    .RightReduseFooter {
+        padding: 10px;
+        right: 30px;
+    }
+}
+
+@media screen and (max-width:348px) {
+    .Right_H img {
+        width: 110px;
+    }
+
+    .HomeLeftButoon button {
+        padding: 10px 13px;
+    }
+}

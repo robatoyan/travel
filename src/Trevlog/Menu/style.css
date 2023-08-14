@@ -1,0 +1,94 @@
+.Menu {
+    display: flex;
+    justify-content: center;
+    column-gap: 210px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.MenuLogo {
+    display: flex;
+    column-gap: 16px;
+}
+
+.MenuLogo h2 {
+    color: var(--black, #191825);
+    font-family: Circular Std;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.MenuUl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 64px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.MenuUl li {
+    color: rgba(25, 24, 37, 0.50);
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    cursor: pointer;
+    /* 16.8px */
+}
+
+.MenuUl li:hover {
+    color: #222831;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 16.8px */
+}
+
+.SingUp {
+    display: flex;
+}
+
+.SingUp button {
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 8px;
+    color: #222831;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    border-radius: 100px;
+    background: #FFF;
+    border: unset;
+    /* 16.8px */
+    color: #222831;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 16.8px */
+}
+
+.SingUp :nth-child(2) {
+    border-radius: 100px;
+    border: unset;
+    background: #5D50C6;
+    color: #EEE;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 16.8px */
+}

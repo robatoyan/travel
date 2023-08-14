@@ -1,0 +1,230 @@
+.KeyFeatures {
+    margin-top: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 42px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.Left_K {
+    width: clamp(200px, 100%, 540px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+}
+
+.KeyFaturesLeftData {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.KeyFaturesLeftData h2 {
+    color: #191825;
+    font-family: Circular Std;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 52.8px */
+}
+
+.KeyFaturesLeftData h3 {
+    color: #F85E9F;
+    font-family: Circular Std;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 27.6px */
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+}
+
+.KeyFaturesLeftData p {
+    color: rgba(25, 24, 37, 0.50);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 16px;
+    /* 28.8px */
+}
+
+.Features {
+    display: flex;
+    flex-direction: column;
+}
+
+.Featur {
+    width: clamp(200px, 100%, 540px);
+    height: 164px;
+    border-radius: 32px;
+    background: #FFF;
+    display: flex;
+    column-gap: 32px;
+    padding: 32px;
+}
+
+.FeaturesIcons {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FeaturesIcons img {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.Features :nth-child(1) .FeaturesIcons {
+    background: #FF5722;
+}
+
+.Features :nth-child(2) .FeaturesIcons {
+    background: #FACD49;
+}
+
+.Features :nth-child(3) .FeaturesIcons {
+    background: #F85E9F;
+}
+
+.FeaturesData {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    justify-content: center;
+    border: unset;
+}
+
+.FeaturesData h4 {
+    color: #191825;
+    font-family: Circular Std;
+    font-size: clamp(16px, 5vw, 23px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    border: unset;
+    /* 27.6px */
+}
+
+.FeaturesData h5 {
+    color: rgba(25, 24, 37, 0.50);
+    font-family: Inter;
+    font-size: clamp(15px, 5vw, 18px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    border: unset;
+    /* 28.8px */
+}
+
+.Right_K {
+    width: clamp(200px, 100%, 600px);
+    height: 880px;
+    position: relative;
+}
+
+
+
+.Right_Kicon1 {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: -10;
+
+}
+
+.Right_Kicon2 {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    z-index: -9;
+
+}
+
+.Right_Kimg1 {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: -8;
+    width: clamp(200px, 100%, 443px);
+    flex-shrink: 0;
+}
+
+.Right_Kimg2 {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    z-index: -7;
+    flex-shrink: 0;
+    width: clamp(200px, 100%, 401px);
+    flex-shrink: 0;
+}
+
+.Pardise {
+    position: absolute;
+    top: 160px;
+    right: 70px;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.03), 0px 15px 34px 0px rgba(0, 0, 0, 0.03), 0px 62px 62px 0px rgba(0, 0, 0, 0.02), 0px 139px 83px 0px rgba(0, 0, 0, 0.01), 0px 246px 99px 0px rgba(0, 0, 0, 0.00), 0px 385px 108px 0px rgba(0, 0, 0, 0.00);
+}
+
+.Pardise span {
+    color: #191825;
+    font-family: Circular Std;
+    font-size: clamp(16px, 5vw, 23px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 27.6px */
+}
+
+@media screen and (max-width:480px) {
+    .Featur {
+        column-gap: 10px;
+        padding: 10px;
+        height: 100px;
+    }
+
+    .FeaturesIcons {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .FeaturesIcons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .FeaturesData {
+        justify-content: start;
+        row-gap: 0px;
+    }
+
+    .Right_K {
+        height: 700px;
+    }
+    .Pardise{
+        padding: 10px 15px;
+    }
+}
